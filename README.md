@@ -1,4 +1,4 @@
-# Advanced-Vehicle-Classifier  🚗 🚛 🚴🏽 🚍
+# Advanced-Vehicle-Classifier-And-Tracker  🚗 🚛 🚴🏽 🚍
 This project aims at classifying multiple classes of vehicles and in addition to that sub-classifying of trucks according to number of axels. 
 
 ## Contents
@@ -13,7 +13,7 @@ This project aims at classifying multiple classes of vehicles and in addition to
 - [License](#License)
 
 ## Why this project
-- Sub-classification of trucks is a very important task as it has many uses like toll-automation and counting number and type of vehicles accurately. Specially in India all types of trucks look the same untill you are a truck connosuir but the wear and tear done by different trucks depends on the number of tyres. So each vehicle has to be charged differently.
+- Sub-classification of trucks is a very important task as it has many uses like toll-automation and counting number and type of vehicles accurately. Specially in India all types of trucks look the same untill you are a truck connoisseur but the wear and tear done by different trucks depends on the number of tyres. So each vehicle has to be charged differently.
 
 - You can also see that at toll gates where it is completely manual the workers can misinform the authorities about the total amount earned for that day thus leading to loss for the authority owning the road. This project can reduce such frauds.
 
