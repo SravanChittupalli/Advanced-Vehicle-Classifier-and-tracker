@@ -54,7 +54,7 @@ The project contains a GUI application to generalise the project. It can be used
 
 ## How to run the application
 This is the problem with darknet. I can't find a way to give the whole project as a package along with darknet. Please do the following steps extremely carefully.
-  1) Clone [AlexyAB's darknet](https://github.com/AlexeyAB/darknet) github repo
+  1) Clone [AlexyAB's darknet](https://github.com/SravanChittupalli/darknet) github repo.
   2) Run the python demo as given in the [README](https://github.com/AlexeyAB/darknet/blob/master/README.md). If you built and ran the demo successfully then continue to step 3
   3) Clone this repo into the `darknet` folder
   4) Next copy the 3 python files in `Code` folder into the `darknet` folder
@@ -69,7 +69,10 @@ This is the problem with darknet. I can't find a way to give the whole project a
 ![WORKING DEMO](https://github.com/SravanChittupalli/Advanced-Vehicle-Classifier/blob/master/Code/media/Pics_Readme/fulldemo.gif)
 
 ## To-Do
-I've tried this project using feature extraction , Hough Circle detection , area of truck , counting each wheel individually but atlast ended up using 2 iterations of the neural network on 2 different weights :sweat_smile:. I understand that this is not an efficient method but I did not have enough resources to make a whole dataset by myself which includes cars, trucks , bikes , buses along with their wheels. If anyone has any sugestions on solving this problem efficintly them please open an issue I will be more than happy to try and implement the suggestions or else you can even try to implement it on your own. :smile:
+I've tried this project using feature extraction , Hough Circle detection , Finding area and length of truck , counting each wheel individually but atlast ended up using 2 iterations of the neural network on 2 different weights one which classifies vehicles and the other that detects wheels :sweat_smile:. I understand that this is not an efficient method but I did not have enough resources to make a whole dataset by myself which includes cars, trucks , bikes , buses along with their wheels. Also I could not find many videos with trck , car facing to the side so that I can detect wheels easily. If anyone has any sugestions on solving this problem efficintly them please open an issue I will be more than happy to try and implement the suggestions or else you can even try to implement it on your own. :smile:
+- [] increase # of classes
+- [] add number plate recognition
+- [] increase efficiency
 
 ## References
 * [AlexyAB's YOLOV4](https://github.com/AlexeyAB/darknet)
