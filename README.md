@@ -10,7 +10,7 @@ This project aims at classifying multiple classes of vehicles and in addition to
 - [Demo](#demo)
 - [To-Do](#to-do)
 - [References](#references)
-- [License](#License)
+- [License](#license)
 
 ## Why this project
 - Sub-classification of trucks is a very important task as it has many uses like toll-automation and counting number and type of vehicles accurately. Specially in India all types of trucks look the same untill you are a truck connoisseur but the wear and tear done by different trucks depends on the number of tyres. So each vehicle has to be charged differently.
@@ -61,18 +61,21 @@ This is the problem with darknet. I can't find a way to give the whole project a
   5) Copy the `.data` and `.names` files in `Code/extras` to `darknet/data` folder.
   6) Copy the `.cfg` files in `Code/extras` to `darknet/cfg` folder.
   7) Download the [weight](https://drive.google.com/drive/u/0/folders/1XVWolAhNTvv-ssePnYNXk0GNMrzmwN0w) files from the [drive link](https://drive.google.com/drive/u/0/folders/1XVWolAhNTvv-ssePnYNXk0GNMrzmwN0w) and save them in `darknet` folder. There will also be a `sample_videos` folder also place it anywhere you want.
-  8) Open a terminal and run `pip install -r requirements.txt`. I strongly recommend the use of miniconda as is keep the system python packages seperate thus avoiding conflict.
+  8) Open a terminal and run `pip install -r requirements.txt`. I strongly recommend the use of miniconda as is keep the system python packages seperate, thus avoiding conflict.
   9) Now you are all set to run the demo. Activate your environment and run `python GUIApp.py`.
   10) Select the sample video and choose the ROI as shown in the GIF below. Detection of axels requires specific angles so I recommend using the ROI as `(444,191), (1440,734)` to get the best results.
+  
+  Just to make your life easier i've added a [bash script]() that you can run to do everything from `step 1` to `step 7`
 
 ## Demo
 ![WORKING DEMO](https://github.com/SravanChittupalli/Advanced-Vehicle-Classifier/blob/master/Code/media/Pics_Readme/fulldemo.gif)
 
 ## To-Do
 I've tried this project using feature extraction , Hough Circle detection , Finding area and length of truck , counting each wheel individually but atlast ended up using 2 iterations of the neural network on 2 different weights one which classifies vehicles and the other that detects wheels :sweat_smile:. I understand that this is not an efficient method but I did not have enough resources to make a whole dataset by myself which includes cars, trucks , bikes , buses along with their wheels. Also I could not find many videos with trck , car facing to the side so that I can detect wheels easily. If anyone has any sugestions on solving this problem efficintly them please open an issue I will be more than happy to try and implement the suggestions or else you can even try to implement it on your own. :smile:
-- [] increase # of classes
-- [] add number plate recognition
-- [] increase efficiency
+- [x] Add script to ensure smooth running
+- [ ] increase # of classes
+- [ ] add number plate recognition
+- [ ] increase efficiency
 
 ## References
 * [AlexyAB's YOLOV4](https://github.com/AlexeyAB/darknet)
