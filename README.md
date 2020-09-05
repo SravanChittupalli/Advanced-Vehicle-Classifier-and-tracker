@@ -65,7 +65,7 @@ This is the problem with darknet. I can't find a way to give the whole project a
   9) Now you are all set to run the demo. Activate your environment and run `python GUIApp.py`.
   10) Select the sample video and choose the ROI as shown in the GIF below. Detection of axels requires specific angles so I recommend using the ROI as `(444,191), (1440,734)` to get the best results.
   
-  Just to make your life easier i've added a [bash script]() that you can run to do everything from `step 1` to `step 7`
+  Just to make your life easier i've added a [bash script]() that you can run to do everything from `step 4` to `step 6`
 
 ## Demo
 ![WORKING DEMO](https://github.com/SravanChittupalli/Advanced-Vehicle-Classifier/blob/master/Code/media/Pics_Readme/fulldemo.gif)
